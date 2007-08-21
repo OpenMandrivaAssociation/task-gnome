@@ -6,7 +6,6 @@ Group: Graphical desktop/GNOME
 License: GPL
 Requires: %{name}-minimal
 Requires: gedit >= 2.8.0
-Requires: bug-buddy >= 2.8.0
 Requires: gdm >= 2.4.1.3
 Requires: gnome-media >= 2.8.0
 Requires: gconf-editor >= 2.8.0
@@ -71,6 +70,7 @@ Requires: metacity >= 2.8.13
 Requires: yelp >= 2.6.5
 Requires: gnome-control-center >= 2.8.2
 Requires: gnome-volume-manager >= 1.5.15
+Suggests: bug-buddy >= 2.8.0
 
 # not needed, required by gnome-panel
 #Requires: gnome-applets >= 2.8.0
