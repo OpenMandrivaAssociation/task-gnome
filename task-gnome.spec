@@ -1,6 +1,6 @@
 Name: task-gnome
-Version: 2007
-Release: %mkrel 5
+Version: 2008.1
+Release: %mkrel 1
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
@@ -38,6 +38,8 @@ Requires: dasher
 Requires: f-spot
 Requires: deskbar-applet
 Requires: evince
+Suggests: nautilus-sendto-bluetooth
+Suggests: nautilus-sendto-evolution
 # not needed, required by gdm
 #Requires: zenity
 
