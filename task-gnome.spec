@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2008.1
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
@@ -21,12 +21,10 @@ Requires: epiphany-extensions
 Requires: gnome-mag
 Requires: gucharmap
 Requires: gcalctool
-Requires: gthumb
 Requires: beagle-gui
 Requires: eog >= 2.8.0
-Requires: gaim
+Requires: pidgin
 Requires: ekiga
-Requires: gthumb
 Requires: evolution
 Requires: evolution-webcal
 Requires: beagle-evolution
@@ -38,6 +36,8 @@ Requires: dasher
 Requires: f-spot
 Requires: deskbar-applet
 Requires: evince
+Requires: vino
+Requires: vinagre
 Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
 # not needed, required by gdm
@@ -49,7 +49,6 @@ Suggests: nautilus-sendto-evolution
 #Requires: gnome-netstatus
 #Requires: gtklp
 #Requires: gnome-nettool
-#Requires: vino
 #Requires: gnome-system-tools
 
 BuildArch: noarch
