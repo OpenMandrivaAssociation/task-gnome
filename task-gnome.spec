@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2008.1
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
@@ -72,6 +72,7 @@ Requires: yelp >= 2.6.5
 Requires: gnome-control-center >= 2.8.2
 Requires: gnome-volume-manager >= 1.5.15
 Suggests: bug-buddy >= 2.8.0
+Suggests: task-pulseaudio
 
 # not needed, required by gnome-panel
 #Requires: gnome-applets >= 2.8.0
