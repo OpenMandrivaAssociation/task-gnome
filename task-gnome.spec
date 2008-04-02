@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2008.1
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
@@ -40,6 +40,7 @@ Requires: vino
 Requires: vinagre
 Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
+Suggests: brasero
 # not needed, required by gdm
 #Requires: zenity
 
