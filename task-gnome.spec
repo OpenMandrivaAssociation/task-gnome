@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2009.0
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
@@ -10,15 +10,12 @@ Requires: gdm >= 2.4.1.3
 Requires: gnome-media >= 2.8.0
 Requires: gconf-editor >= 2.8.0
 Requires: gnome-games >= 2.8.0
-Requires: gok
-Requires: orca
 Requires: rhythmbox
 Requires: file-roller
 Requires: gnome-pilot
 Requires: totem
 Requires: epiphany
 Requires: epiphany-extensions
-Requires: gnome-mag
 Requires: gucharmap
 Requires: gcalctool
 Requires: beagle-gui
@@ -32,12 +29,15 @@ Requires: nautilus
 Requires: nautilus-cd-burner
 Requires: nautilus-filesharing
 Requires: tomboy
-Requires: dasher
 Requires: f-spot
 Requires: deskbar-applet
 Requires: evince
 Requires: vino
 Requires: vinagre
+Suggests: gok
+Suggests: orca
+Suggests: mousetweaks
+Suggests: dasher
 Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
 Suggests: brasero
@@ -72,6 +72,7 @@ Requires: metacity >= 2.8.13
 Requires: yelp >= 2.6.5
 Requires: gnome-control-center >= 2.8.2
 Requires: gnome-volume-manager >= 1.5.15
+Requires: gnome-power-manager
 Suggests: bug-buddy >= 2.8.0
 Suggests: task-pulseaudio
 
