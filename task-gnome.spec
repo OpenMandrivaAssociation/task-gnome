@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2009.0
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
@@ -41,7 +41,6 @@ Suggests: dasher
 Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
 Suggests: brasero
-Suggests: preload
 # not needed, required by gdm
 #Requires: zenity
 
@@ -76,6 +75,8 @@ Requires: gnome-volume-manager >= 1.5.15
 Requires: gnome-power-manager
 Suggests: bug-buddy >= 2.8.0
 Suggests: task-pulseaudio
+Suggests: preload
+Suggests: readahead
 
 # not needed, required by gnome-panel
 #Requires: gnome-applets >= 2.8.0
