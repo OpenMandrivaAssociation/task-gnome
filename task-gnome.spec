@@ -1,39 +1,39 @@
 Name: task-gnome
 Version: 2009.0
-Release: %mkrel 4
+Release: %mkrel 5
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
 Requires: %{name}-minimal
-Requires: gedit >= 2.8.0
-Requires: gdm >= 2.4.1.3
-Requires: gnome-media >= 2.8.0
-Requires: gconf-editor >= 2.8.0
-Requires: gnome-games >= 2.8.0
-Requires: rhythmbox
-Requires: file-roller
-Requires: gnome-pilot
-Requires: totem
-Requires: epiphany
-Requires: epiphany-extensions
-Requires: gucharmap
-Requires: gcalctool
-Requires: beagle-gui
-Requires: eog >= 2.8.0
-Requires: pidgin
-Requires: ekiga
-Requires: evolution
-Requires: evolution-webcal
-Requires: beagle-evolution
-Requires: nautilus
-Requires: nautilus-cd-burner
-Requires: nautilus-filesharing
-Requires: tomboy
-Requires: f-spot
-Requires: deskbar-applet
-Requires: evince
-Requires: vino
-Requires: vinagre
+Suggests: gedit >= 2.8.0
+Suggests: gdm >= 2.4.1.3
+Suggests: gnome-media >= 2.8.0
+Suggests: gconf-editor >= 2.8.0
+Suggests: gnome-games >= 2.8.0
+Suggests: rhythmbox
+Suggests: file-roller
+Suggests: gnome-pilot
+Suggests: totem
+Suggests: epiphany
+Suggests: epiphany-extensions
+Suggests: gucharmap
+Suggests: gcalctool
+Suggests: beagle-gui
+Suggests: eog >= 2.8.0
+Suggests: pidgin
+Suggests: ekiga
+Suggests: evolution
+Suggests: evolution-webcal
+Suggests: beagle-evolution
+Suggests: nautilus
+Suggests: nautilus-cd-burner
+Suggests: nautilus-filesharing
+Suggests: tomboy
+Suggests: f-spot
+Suggests: deskbar-applet
+Suggests: evince
+Suggests: vino
+Suggests: vinagre
 Suggests: gok
 Suggests: orca
 Suggests: mousetweaks
