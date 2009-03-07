@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2009.0
-Release: %mkrel 5
+Release: %mkrel 6
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
