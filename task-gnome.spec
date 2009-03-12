@@ -1,13 +1,12 @@
 Name: task-gnome
-Version: 2009.0
-Release: %mkrel 6
+Version: 2009.1
+Release: %mkrel 1
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
 Requires: %{name}-minimal
 Suggests: gedit >= 2.8.0
 Suggests: gdm >= 2.4.1.3
-Suggests: gnome-media >= 2.8.0
 Suggests: gconf-editor >= 2.8.0
 Suggests: gnome-games >= 2.8.0
 Suggests: rhythmbox
@@ -26,7 +25,6 @@ Suggests: evolution
 Suggests: evolution-webcal
 Suggests: beagle-evolution
 Suggests: nautilus
-Suggests: nautilus-cd-burner
 Suggests: nautilus-filesharing
 Suggests: tomboy
 Suggests: f-spot
@@ -73,6 +71,7 @@ Requires: yelp >= 2.6.5
 Requires: gnome-control-center >= 2.8.2
 Requires: gnome-volume-manager >= 1.5.15
 Requires: gnome-power-manager
+Suggests: gnome-media >= 2.8.0
 Suggests: bug-buddy >= 2.8.0
 Suggests: task-pulseaudio
 Suggests: preload
