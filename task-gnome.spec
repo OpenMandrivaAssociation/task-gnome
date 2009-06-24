@@ -1,5 +1,5 @@
 Name: task-gnome
-Version: 2009.1
+Version: 2010.0
 Release: %mkrel 1
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
@@ -39,6 +39,7 @@ Suggests: dasher
 Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
 Suggests: brasero
+Suggests: cheese
 # not needed, required by gdm
 #Requires: zenity
 
