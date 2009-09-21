@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2010.0
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
@@ -19,7 +19,7 @@ Suggests: gucharmap
 Suggests: gcalctool
 Suggests: beagle-gui
 Suggests: eog >= 2.8.0
-Suggests: pidgin
+Suggests: empathy
 Suggests: ekiga
 Suggests: evolution
 Suggests: evolution-webcal
