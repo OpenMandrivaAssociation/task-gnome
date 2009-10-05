@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2010.0
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
@@ -70,7 +70,6 @@ Requires: nautilus >= 2.8.2
 Requires: metacity >= 2.8.13
 Requires: yelp >= 2.6.5
 Requires: gnome-control-center >= 2.8.2
-Requires: gnome-volume-manager >= 1.5.15
 Requires: gnome-power-manager
 Suggests: gnome-media >= 2.8.0
 Suggests: bug-buddy >= 2.8.0
