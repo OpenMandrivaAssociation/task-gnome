@@ -1,6 +1,6 @@
 Name: task-gnome
-Version: 2010.0
-Release: %mkrel 3
+Version: 2010.1
+Release: %mkrel 1
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
 License: GPL
@@ -40,6 +40,7 @@ Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
 Suggests: brasero
 Suggests: cheese
+Suggests: gnome-color-manager
 # not needed, required by gdm
 #Requires: zenity
 
