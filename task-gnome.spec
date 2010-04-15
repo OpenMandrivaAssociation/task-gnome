@@ -3,7 +3,7 @@ Version: 2010.1
 Release: %mkrel 1
 Summary: Metapackage for the GNOME
 Group: Graphical desktop/GNOME
-License: GPL
+License: GPLv2+
 Requires: %{name}-minimal
 Suggests: gedit >= 2.8.0
 Suggests: gdm >= 2.4.1.3
@@ -17,13 +17,14 @@ Suggests: epiphany
 Suggests: epiphany-extensions
 Suggests: gucharmap
 Suggests: gcalctool
-Suggests: beagle-gui
+Suggests: tracker-search-tool
+Suggests: tracker-preferences
 Suggests: eog >= 2.8.0
 Suggests: empathy
 Suggests: ekiga
 Suggests: evolution
 Suggests: evolution-webcal
-Suggests: beagle-evolution
+Suggests: evolution-tracker
 Suggests: nautilus
 Suggests: nautilus-filesharing
 Suggests: tomboy
