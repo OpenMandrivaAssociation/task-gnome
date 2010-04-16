@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2010.1
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: Metapackage for GNOME desktop environment
 Group: Graphical desktop/GNOME
 License: GPLv2+
@@ -24,7 +24,8 @@ Suggests: empathy
 Suggests: ekiga
 Suggests: evolution
 Suggests: evolution-webcal
-Suggests: evolution-tracker
+# do not install for now, not stable enough
+#Suggests: evolution-tracker
 Suggests: nautilus
 Suggests: nautilus-filesharing
 Suggests: tomboy
