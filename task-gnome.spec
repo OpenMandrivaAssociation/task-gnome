@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2010.1
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: Metapackage for GNOME desktop environment
 Group: Graphical desktop/GNOME
 License: GPLv2+
@@ -74,11 +74,13 @@ Requires: metacity >= 2.8.13
 Requires: yelp >= 2.6.5
 Requires: gnome-control-center >= 2.8.2
 Requires: gnome-power-manager
+Suggests: mandriva-theme
 Suggests: gnome-media >= 2.8.0
 Suggests: bug-buddy >= 2.8.0
 Suggests: task-pulseaudio
 Suggests: preload
 Suggests: readahead
+Suggests: gnome-themes
 
 # not needed, required by gnome-panel
 #Requires: gnome-applets >= 2.8.0
