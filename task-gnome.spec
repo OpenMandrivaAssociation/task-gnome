@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2010.1
-Release: %mkrel 4
+Release: %mkrel 5
 Summary: Metapackage for GNOME desktop environment
 Group: Graphical desktop/GNOME
 License: GPLv2+
