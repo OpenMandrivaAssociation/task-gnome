@@ -1,96 +1,98 @@
 Name: task-gnome
-Version: 2010.1
-Release: %mkrel 6
+Version: 2012
+Release: 1
 Summary: Metapackage for GNOME desktop environment
 Group: Graphical desktop/GNOME
 License: GPLv2+
+BuildArch: noarch
+
 Requires: %{name}-minimal
-Suggests: gedit >= 2.8.0
-Suggests: gdm >= 2.4.1.3
-Suggests: gconf-editor >= 2.8.0
-Suggests: gnome-games >= 2.8.0
-Suggests: rhythmbox
-Suggests: file-roller
-Suggests: gnome-pilot
-Suggests: totem
+# MD 2012_04_02
+# anything with suggests is replaceable
+# anything with requires adds functionality
+# please change if you disagree
+Requires: cheese
+Requires: eog
+Requires: evince
+Requires: folks
+Requires: gcalctool
+Requires: gnome-color-manager
+Requires: gnome-disk-utility
+Requires: file-roller
+Requires: libsocialweb
+Requires: rhythmbox
+Requires: telepathy-mission-control
+Requires: totem
+Requires: tracker-applet
+Requires: tracker-preferences
+
+#extras
+Suggests: empathy
 Suggests: epiphany
 Suggests: epiphany-extensions
-Suggests: gucharmap
-Suggests: gcalctool
-Suggests: tracker-search-tool
-Suggests: tracker-preferences
-Suggests: eog >= 2.8.0
-Suggests: empathy
+Suggests: gedit
+Suggests: gdm
+# do ppl still own these
+Suggests: gnome-pilot
+
+# games
+Suggests: gnome-games
+
+# mono
+Suggests: f-spot
+Suggests: tomboy
+
+# biz / office / utils
+Suggests: brasero
+Suggests: caribou
+Suggests: caribou-gtk3
 Suggests: ekiga
 Suggests: evolution
+Suggests: evolution-tracker
 Suggests: evolution-webcal
-# do not install for now, not stable enough
-#Suggests: evolution-tracker
-Suggests: nautilus
-Suggests: nautilus-filesharing
-Suggests: tomboy
-Suggests: f-spot
-Suggests: deskbar-applet
-Suggests: evince
-Suggests: vino
-Suggests: vinagre
+Suggests: gnome-contacts
 Suggests: gok
-Suggests: orca
+Suggests: gucharmap
 Suggests: mousetweaks
-Suggests: dasher
+Suggests: nautilus-filesharing
 Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
-Suggests: brasero
-Suggests: cheese
-Suggests: gnome-color-manager
-# not needed, required by gdm
-#Requires: zenity
-
-# the following packages still rest in contrib
-#Requires: ggv
-#Requires: gpdf
-#Requires: gnome-netstatus
-#Requires: gtklp
-#Requires: gnome-nettool
-#Requires: gnome-system-tools
-
-BuildArch: noarch
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
+Suggests: orca
+Suggests: vino
+Suggests: vinagre
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
-dependencies for running the GNOME2.
+dependencies for running the GNOME.
 
 %package minimal
 Summary: Minimal dependencies needed for GNOME desktop 
 Group: Graphical desktop/GNOME
-Obsoletes: gnome2
-Provides: gnome2
 
-Requires: gnome-panel >= 2.8.3
-Requires: gnome-terminal >= 2.8.2
-Requires: nautilus >= 2.8.2
-Requires: metacity >= 2.8.13
-Requires: yelp >= 2.6.5
-Requires: gnome-control-center >= 2.8.2
+Requires: accountservices
+Requires: gnome-applets
+Requires: gnome-control-center
+Requires: gnome-icon-theme-symbolic
 Requires: gnome-power-manager
-Suggests: mandriva-theme
-Suggests: gnome-media >= 2.8.0
-Suggests: bug-buddy >= 2.8.0
+Requires: gnome-system-monitor
+Requires: gnome-terminal
+Requires: gnome-themes-standard
+Requires: gnome-tweak-tool
+Requires: gnome-utils
+# to be replaced in 3.4
+# gnome-boxes gnome-font-viewer baobab gnome-system-log gnome-search-tool
+# gnome-dictionary gnome-screenshot
+Requires: nautilus
+Requires: networkmanager-applet
+Requires: yelp
+# gnome3 fallback
+#Suggests: ???
+Requires: gnome-panel
+Requires: metacity
+#Suggests: mandriva-theme does mdv care?
+Suggests: gnome-media
 Suggests: task-pulseaudio
 Suggests: preload
-Suggests: readahead
-Suggests: gnome-themes
-
-# not needed, required by gnome-panel
-#Requires: gnome-applets >= 2.8.0
-#Requires: gnome-utils >= 2.8.0
-
-# not needed, required by gnome-session
-#Requires: gnome-user-docs >= 2.6.0
-
-#not needed, required by gnome-applets
-#Requires: gnome-system-monitor >= 2.8.0
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
