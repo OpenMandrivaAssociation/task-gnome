@@ -94,6 +94,29 @@ Suggests: gnome-media
 Suggests: task-pulseaudio
 Suggests: preload
 
+# missing typelib pkgs workaround
+# remove once rpm auto prov/reqs
+Requires: %{_lib}clutter-gtk-gir1.0
+Requires: %{_lib}pango-gir1.0
+Requires: %{_lib}gdk_pixbuf-gir2.0
+Requires: %{_lib}clutter-gir1.0
+Requires: %{_lib}pangoft2-gir1.0
+Requires: %{_lib}pangocairo-gir1.0
+Requires: %{_lib}jscore-gir3.0
+Requires: %{_lib}json-glib-gir1.0
+Requires: %{_lib}cogl-pango-gir1.0
+Requires: %{_lib}cogl-gir1.0
+Requires: %{_lib}telepathy-logger-gir0.2
+Requires: %{_lib}soup-gir2.4
+Requires: %{_lib}mutter-gir3.0
+Requires: %{_lib}gee-gir1.0
+Requires: %{_lib}gmenu-gir3.0
+Requires: %{_lib}folks-gir0.6
+Requires: %{_lib}accountsservice-gir1.0
+Requires: %{_lib}gjs-gir1.0
+Requires: %{_lib}caribou-gir1.0
+Requires: %{_lib}gnomekbd-gir3.0
+
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
 minimal dependencies for running a minimal GNOME desktop environment.
