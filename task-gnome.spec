@@ -69,7 +69,7 @@ dependencies for running the GNOME.
 Summary: Minimal dependencies needed for GNOME desktop 
 Group: Graphical desktop/GNOME
 
-Requires: accountservices
+Requires: accountsservice
 Requires: gnome-applets
 Requires: gnome-control-center
 Requires: gnome-icon-theme-symbolic
