@@ -82,6 +82,8 @@ Requires: gnome-utils
 # to be replaced in 3.4
 # gnome-boxes gnome-font-viewer baobab gnome-system-log gnome-search-tool
 # gnome-dictionary gnome-screenshot
+Requires: libgnomekbd
+Requires: libgnomekbd-common
 Requires: nautilus
 Requires: networkmanager-applet
 Requires: yelp
