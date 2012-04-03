@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2012
-Release: 2
+Release: 2.1
 Summary: Metapackage for GNOME desktop environment
 Group: Graphical desktop/GNOME
 License: GPLv2+
@@ -90,7 +90,7 @@ Requires: yelp
 # gnome3 fallback
 #Suggests: ???
 Requires: gnome-panel
-Requires: gobject-instrospection
+Requires: gobject-introspection
 Requires: metacity
 #Suggests: mandriva-theme does mdv care?
 Suggests: gnome-media
