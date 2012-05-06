@@ -1,12 +1,13 @@
+Summary: Metapackage for GNOME desktop environment
 Name: task-gnome
 Version: 2012
-Release: 3
-Summary: Metapackage for GNOME desktop environment
+Release: 3.1
 Group: Graphical desktop/GNOME
 License: GPLv2+
 BuildArch: noarch
 
 Requires: %{name}-minimal
+Obsoletes: gnome-utils
 # MD 2012_04_02
 # anything with suggests is replaceable
 # anything with requires adds functionality
