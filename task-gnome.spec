@@ -1,6 +1,6 @@
 Name: task-gnome
 Version: 2012
-Release: 2.1
+Release: 3
 Summary: Metapackage for GNOME desktop environment
 Group: Graphical desktop/GNOME
 License: GPLv2+
@@ -38,10 +38,6 @@ Suggests: gnome-pilot
 # games
 Suggests: gnome-games
 
-# mono
-Suggests: f-spot
-Suggests: tomboy
-
 # biz / office / utils
 Suggests: brasero
 Suggests: caribou
@@ -50,7 +46,11 @@ Suggests: ekiga
 Suggests: evolution
 Suggests: evolution-tracker
 Suggests: evolution-webcal
-Suggests: gnome-contacts
+Suggests: gnome-boxes
+Requires: gnome-contacts
+Requires: gnome-dictionary
+Requires: gnome-documents
+Requires: gnome-font-viewer
 Suggests: gok
 Suggests: gucharmap
 Suggests: mousetweaks
@@ -58,6 +58,9 @@ Suggests: nautilus-filesharing
 Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
 Suggests: orca
+Suggests: simple-scan
+Suggests: shotwell
+Requires: sushi
 Suggests: vino
 Suggests: vinagre
 
@@ -78,17 +81,16 @@ Requires: gnome-system-monitor
 Requires: gnome-terminal
 Requires: gnome-themes-standard
 Requires: gnome-tweak-tool
-Requires: gnome-utils
-# to be replaced in 3.4
-# gnome-boxes gnome-font-viewer baobab gnome-system-log gnome-search-tool
-# gnome-dictionary gnome-screenshot
-Requires: libgnomekbd
+Requires: baobab
+Requires: gnome-backgrounds
+Requires: gnome-system-log
+Requires: gnome-search-tool
+Requires: gnome-screenshot
 Requires: libgnomekbd-common
 Requires: nautilus
 Requires: networkmanager-applet
 Requires: yelp
 # gnome3 fallback
-#Suggests: ???
 Requires: gnome-panel
 Requires: gobject-introspection
 Requires: metacity
@@ -104,5 +106,4 @@ minimal dependencies for running a minimal GNOME desktop environment.
 %files
 
 %files minimal
-
 
