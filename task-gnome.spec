@@ -96,6 +96,7 @@ Requires: networkmanager-applet
 Requires: notification-daemon
 Requires: packagekit-gtk3-module
 Requires: task-pulseaudio
+Requires: task-x11
 Requires: yelp
 # gnome3 fallback
 Requires: gnome-panel
