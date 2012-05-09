@@ -1,7 +1,7 @@
 Summary: Metapackage for GNOME desktop environment
 Name: task-gnome
 Version: 2012
-Release: 3.1
+Release: 3.2
 Group: Graphical desktop/GNOME
 License: GPLv2+
 BuildArch: noarch
@@ -32,7 +32,7 @@ Suggests: empathy
 Suggests: epiphany
 Suggests: epiphany-extensions
 Suggests: gedit
-Suggests: gdm
+Requires: gdm
 # do ppl still own these
 Suggests: gnome-pilot
 
@@ -52,6 +52,7 @@ Requires: gnome-contacts
 Requires: gnome-dictionary
 Requires: gnome-documents
 Requires: gnome-font-viewer
+Requires: gnome-online-accounts
 Suggests: gok
 Suggests: gucharmap
 Suggests: mousetweaks
@@ -74,22 +75,27 @@ Summary: Minimal dependencies needed for GNOME desktop
 Group: Graphical desktop/GNOME
 
 Requires: accountsservice
+Requires: baobab
 Requires: gnome-applets
 Requires: gnome-control-center
 Requires: gnome-icon-theme-symbolic
+Requires: gnome-keyring
 Requires: gnome-power-manager
 Requires: gnome-system-monitor
 Requires: gnome-terminal
 Requires: gnome-themes-standard
 Requires: gnome-tweak-tool
-Requires: baobab
 Requires: gnome-backgrounds
 Requires: gnome-system-log
 Requires: gnome-search-tool
 Requires: gnome-screenshot
 Requires: libgnomekbd-common
+Requires: libnotify
 Requires: nautilus
 Requires: networkmanager-applet
+Requires: notification-daemon
+Requires: packagekit-gtk3-module
+Requires: task-pulseaudio
 Requires: yelp
 # gnome3 fallback
 Requires: gnome-panel
@@ -97,8 +103,8 @@ Requires: gobject-introspection
 Requires: metacity
 #Suggests: mandriva-theme does mdv care?
 Suggests: gnome-media
+Suggests: gnome-packagekit
 Suggests: preload
-Suggests: task-pulseaudio
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
