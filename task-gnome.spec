@@ -76,6 +76,7 @@ Group: Graphical desktop/GNOME
 
 Requires: accountsservice
 Requires: baobab
+Requires: canberra-gtk3
 Requires: gnome-applets
 Requires: gnome-control-center
 Requires: gnome-icon-theme-symbolic
