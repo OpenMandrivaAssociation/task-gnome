@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	2012
-Release:	4
+Version:	2013
+Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -24,8 +24,7 @@ Requires: libsocialweb
 #Requires: rhythmbox
 Requires: telepathy-mission-control
 Requires: totem
-Requires: tracker-applet
-Requires: tracker-preferences
+Requires: tracker
 
 #extras
 Suggests: empathy
@@ -45,7 +44,6 @@ Suggests: caribou
 Suggests: caribou-gtk3
 Suggests: ekiga
 Suggests: evolution
-Suggests: evolution-tracker
 Suggests: evolution-webcal
 #Suggests: gnome-boxes
 Requires: gnome-contacts
