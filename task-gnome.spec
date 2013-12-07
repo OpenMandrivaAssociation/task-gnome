@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	2013
-Release:	1
+Release:	2
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
