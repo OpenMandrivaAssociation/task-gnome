@@ -59,7 +59,7 @@ This package is a meta-package, meaning that its purpose is to contain
 dependencies for running the GNOME.
 
 %package minimal
-Summary:	A very minimal GNOME 3 desktop.
+Summary:	A very minimal GNOME 3 desktop
 Group:		Graphical desktop/GNOME
 
 Requires:	adwaita-icon-theme
