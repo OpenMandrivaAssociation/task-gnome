@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	3.14.1
-Release:	2
+Version:	3.16.1
+Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -34,14 +34,12 @@ Suggests: caribou
 Suggests: caribou-gtk3
 Suggests: ekiga
 Suggests: evolution
-Suggests: evolution-webcal
 Suggests: gnome-boxes
 
 Suggests: gnome-contacts
 Suggests: gnome-dictionary
 Suggests: gnome-documents
 Suggests: gnome-font-viewer
-Suggests: gok
 Suggests: gucharmap
 Suggests: mousetweaks
 Suggests: nautilus-filesharing
@@ -53,6 +51,10 @@ Suggests: shotwell
 Suggests: sushi
 Suggests: vino
 Suggests: vinagre
+
+Suggests: gnome-maps
+Suggests: gnome-music
+Suggests: gnome-photos
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
