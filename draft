@@ -1,6 +1,6 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	3.16.1
+Version:	3.30.1
 Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
@@ -12,13 +12,13 @@ BuildArch:	noarch
 Requires:	%{name}-minimal
 Obsoletes:	gnome-utils
 
-Suggests:	cheese
++Suggests:	cheese
 Suggests:	eog
 Suggests:	evince
 Suggests:	file-roller
 Suggests:	gnome-calculator
 Suggests:	gedit
-Suggests:	gdm
++Suggests:	gdm
 Suggests:	gnome-color-manager
 Suggests:	gnome-disk-utility
 
@@ -65,18 +65,18 @@ Summary:	A very minimal GNOME 3 desktop
 Group:		Graphical desktop/GNOME
 
 Requires:	adwaita-icon-theme
-Requires:	gnome-backgrounds
++Requires:	gnome-backgrounds
 Requires:	gnome-control-center
-Requires:	gnome-keyring
-Requires:	gnome-screenshot
-Requires:	gnome-shell
-Requires:	gnome-system-monitor
++Requires:	gnome-keyring
++Requires:	gnome-screenshot
++Requires:	gnome-shell
++Requires:	gnome-system-monitor
 Requires:	gnome-terminal
-Requires:	nautilus
-Requires:	networkmanager
-Requires:	task-pulseaudio
-Requires:	yelp
-Suggests:	task-x11
++Requires:	nautilus
++Requires:	networkmanager
++Requires:	task-pulseaudio
++Requires:	yelp
++Suggests:	task-x11
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
