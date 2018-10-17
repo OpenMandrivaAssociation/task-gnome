@@ -30,8 +30,8 @@ Suggests:	totem
 
 # biz / office / utils
 +Suggests: brasero
-Suggests: caribou
-Suggests: caribou-gtk3
++Suggests: caribou
++Suggests: caribou-gtk3
 Suggests: ekiga
 Suggests: evolution
 Suggests: gnome-boxes
