@@ -13,13 +13,13 @@ Requires:	%{name}-minimal
 Obsoletes:	gnome-utils
 
 +Suggests:	cheese
-Suggests:	eog
++Suggests:	eog
 Suggests:	evince
 Suggests:	file-roller
 Suggests:	gnome-calculator
-Suggests:	gedit
++Suggests:	gedit
 +Suggests:	gdm
-Suggests:	gnome-color-manager
++Suggests:	gnome-color-manager
 Suggests:	gnome-disk-utility
 
 Suggests:	empathy
@@ -29,7 +29,7 @@ Suggests:	rhythmbox
 Suggests:	totem
 
 # biz / office / utils
-Suggests: brasero
++Suggests: brasero
 Suggests: caribou
 Suggests: caribou-gtk3
 Suggests: ekiga
@@ -39,14 +39,14 @@ Suggests: gnome-boxes
 Suggests: gnome-contacts
 Suggests: gnome-dictionary
 Suggests: gnome-documents
-Suggests: gnome-font-viewer
++Suggests: gnome-font-viewer
 Suggests: gucharmap
 Suggests: mousetweaks
 Suggests: nautilus-filesharing
 Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
 Suggests: orca
-Suggests: simple-scan
++Suggests: simple-scan
 Suggests: shotwell
 Suggests: sushi
 Suggests: vino
@@ -66,7 +66,7 @@ Group:		Graphical desktop/GNOME
 
 Requires:	adwaita-icon-theme
 +Requires:	gnome-backgrounds
-Requires:	gnome-control-center
++Requires:	gnome-control-center
 +Requires:	gnome-keyring
 +Requires:	gnome-screenshot
 +Requires:	gnome-shell
