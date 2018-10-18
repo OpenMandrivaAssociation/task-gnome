@@ -37,11 +37,11 @@ Suggests: evolution
 Suggests: gnome-boxes
 
 Suggests: gnome-contacts
-Suggests: gnome-dictionary
++Suggests: gnome-dictionary
 Suggests: gnome-documents
 +Suggests: gnome-font-viewer
 Suggests: gucharmap
-Suggests: mousetweaks
++Suggests: mousetweaks
 Suggests: nautilus-filesharing
 Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
