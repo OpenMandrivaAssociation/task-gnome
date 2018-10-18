@@ -20,7 +20,7 @@ Suggests:	gnome-calculator
 +Suggests:	gedit
 +Suggests:	gdm
 +Suggests:	gnome-color-manager
-Suggests:	gnome-disk-utility
++Suggests:	gnome-disk-utility
 
 Suggests:	empathy
 Suggests:	epiphany
