@@ -49,7 +49,7 @@ Suggests: orca
 +Suggests: simple-scan
 Suggests: shotwell
 Suggests: sushi
-Suggests: vino
++Suggests: vino
 Suggests: vinagre
 
 Suggests: gnome-maps
