@@ -36,7 +36,7 @@ Suggests: ekiga
 Suggests: evolution
 Suggests: gnome-boxes
 
-Suggests: gnome-contacts
++Suggests: gnome-contacts
 +Suggests: gnome-dictionary
 Suggests: gnome-documents
 +Suggests: gnome-font-viewer
