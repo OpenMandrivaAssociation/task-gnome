@@ -22,7 +22,7 @@ Suggests:	gnome-calculator
 +Suggests:	gnome-color-manager
 +Suggests:	gnome-disk-utility
 
-Suggests:	empathy
++Suggests:	empathy
 Suggests:	epiphany
 Suggests:	gnome-games
 Suggests:	rhythmbox
