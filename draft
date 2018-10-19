@@ -15,7 +15,7 @@ Obsoletes:	gnome-utils
 +Suggests:	cheese
 +Suggests:	eog
 Suggests:	evince
-Suggests:	file-roller
++Suggests:	file-roller
 Suggests:	gnome-calculator
 +Suggests:	gedit
 +Suggests:	gdm
