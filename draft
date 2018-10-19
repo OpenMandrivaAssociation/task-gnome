@@ -50,7 +50,7 @@ Suggests: orca
 Suggests: shotwell
 Suggests: sushi
 +Suggests: vino
-Suggests: vinagre
++Suggests: vinagre
 
 Suggests: gnome-maps
 Suggests: gnome-music
