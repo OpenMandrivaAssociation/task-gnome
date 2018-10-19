@@ -47,7 +47,7 @@ Suggests: nautilus-sendto-bluetooth
 Suggests: nautilus-sendto-evolution
 Suggests: orca
 +Suggests: simple-scan
-Suggests: shotwell
++Suggests: shotwell
 Suggests: sushi
 +Suggests: vino
 +Suggests: vinagre
