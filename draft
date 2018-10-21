@@ -25,7 +25,7 @@ Suggests:	gnome-calculator
 +Suggests:	empathy
 Suggests:	epiphany
 Suggests:	gnome-games
-Suggests:	rhythmbox
++Suggests:	rhythmbox
 Suggests:	totem
 
 # biz / office / utils
