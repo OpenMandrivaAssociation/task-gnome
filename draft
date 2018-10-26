@@ -33,7 +33,7 @@ Suggests:	totem
 +Suggests: caribou
 +Suggests: caribou-gtk3
 Suggests: ekiga
-Suggests: evolution
++Suggests: evolution
 Suggests: gnome-boxes
 
 +Suggests: gnome-contacts
