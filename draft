@@ -16,7 +16,7 @@ Obsoletes:	gnome-utils
 +Suggests:	eog
 Suggests:	evince
 +Suggests:	file-roller
-Suggests:	gnome-calculator
++Suggests:	gnome-calculator
 +Suggests:	gedit
 +Suggests:	gdm
 +Suggests:	gnome-color-manager
