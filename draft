@@ -64,7 +64,7 @@ dependencies for running the GNOME.
 Summary:	A very minimal GNOME 3 desktop
 Group:		Graphical desktop/GNOME
 
-Requires:	adwaita-icon-theme
++Requires:	adwaita-icon-theme
 +Requires:	gnome-backgrounds
 +Requires:	gnome-control-center
 +Requires:	gnome-keyring
