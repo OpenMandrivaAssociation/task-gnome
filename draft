@@ -71,7 +71,7 @@ Group:		Graphical desktop/GNOME
 +Requires:	gnome-screenshot
 +Requires:	gnome-shell
 +Requires:	gnome-system-monitor
-Requires:	gnome-terminal
++Requires:	gnome-terminal
 +Requires:	nautilus
 +Requires:	networkmanager
 +Requires:	task-pulseaudio
