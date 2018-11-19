@@ -48,7 +48,7 @@ Suggests: nautilus-sendto-evolution
 Suggests: orca
 +Suggests: simple-scan
 +Suggests: shotwell
-Suggests: sushi
++Suggests: sushi
 +Suggests: vino
 +Suggests: vinagre
 
