@@ -24,7 +24,7 @@ Obsoletes:	gnome-utils
 
 +Suggests:	empathy
 Suggests:	epiphany
-Suggests:	gnome-games
++Suggests:	gnome-games
 +Suggests:	rhythmbox
 +Suggests:	totem
 
