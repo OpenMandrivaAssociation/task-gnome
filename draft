@@ -23,7 +23,7 @@ Obsoletes:	gnome-utils
 +Suggests:	gnome-disk-utility
 
 +Suggests:	empathy
-Suggests:	epiphany
++Suggests:	epiphany
 +Suggests:	gnome-games
 +Suggests:	rhythmbox
 +Suggests:	totem
