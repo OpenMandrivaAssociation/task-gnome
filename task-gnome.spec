@@ -1,6 +1,6 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	3.32.0
+Version:	3.32.2
 Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
@@ -12,49 +12,82 @@ BuildArch:	noarch
 Requires:	%{name}-minimal
 Obsoletes:	gnome-utils
 
-Suggests:	cheese
-Suggests:	eog
-Suggests:	evince
-Suggests:	file-roller
-Suggests:	gnome-calculator
-Suggests:	gedit
-Suggests:	gdm
-Suggests:	gnome-color-manager
-Suggests:	gnome-disk-utility
+Recommends:	cheese
+Recommends:	eog
+Recommends:	evince
+Recommends:	file-roller
+Recommends: gnome-calculator
+Recommends:	gedit
+Recommends:	gdm
+Recommends: gnome-color-manager
+Recommends:	gnome-disk-utility
+Recommends: gnome-packagekit
+Recommends: gnome-software
+Recommends: gnome-terminal-nautilus
 
-Suggests:	empathy
-Suggests:	epiphany
-Suggests:	gnome-games
-Suggests:	rhythmbox
-Suggests:	totem
+Recommends:	empathy
+Recommends:	epiphany
+Recommends:	gnome-games
+Recommends:	rhythmbox
+Recommends:	totem
 
 # biz / office / utils
-Suggests: brasero
-Suggests: caribou
-Suggests: caribou-gtk3
-Suggests: ekiga
-Suggests: evolution
-Suggests: gnome-boxes
+Recommends: brasero
+Recommends: caribou
+Recommends: caribou-gtk3
+Recommends: ekiga
+Recommends: evolution
+Recommends: gnome-boxes
+Recommends: gnome-contacts
+Recommends: gparted
+Recommends: gthumb
 
-Suggests: gnome-contacts
-Suggests: gnome-dictionary
-Suggests: gnome-documents
-Suggests: gnome-font-viewer
-Suggests: gucharmap
-Suggests: mousetweaks
+# DONT KNOW...
+#Recommends: gimp
+#Recommends: inkscape
+#Recommedns: geary
+#Recommends: peak
+
+#NOT PACKED YET
+#Recommends: gnome-calendar
+#Recommends: gnome-epub-thumbnailer
+#Recommends: gnome-multi-writer
+#Recommends: gnome-todo
+
+Recommends: bijiben
+Recommends: gnome-characters
+Recommends: gnome-clocks
+Recommends: gnome-builder
+Recommends: gnome-dictionary
+Recommends: gnome-documents
+Recommends: gnome-font-viewer
+Recommends: gnome-sound-recorder
+Recommends: gnome-usage
+Recommends: gnome-weather
+Recommends: baobab
+Recommends: gnome-system-log
+Recommends: gnome-search-tool
+Recommends: gnome-commander
+
+Recommends: gucharmap
+Recommends: mousetweaks
 Suggests: nautilus-filesharing
-Suggests: nautilus-sendto-bluetooth
-Suggests: nautilus-sendto-evolution
-Suggests: orca
-Suggests: simple-scan
-Suggests: shotwell
-Suggests: sushi
-Suggests: vino
-Suggests: vinagre
+Recommends: nautilus-sendto
 
-Suggests: gnome-maps
-Suggests: gnome-music
-Suggests: gnome-photos
+Suggests: orca
+Recommends: simple-scan
+Recommends: shotwell
+Recommends: sushi
+Recommends: vino
+Recommends: vinagre
+Recommends: polari
+
+Recommends: gnome-maps
+Recommends: gnome-music
+Recommends: gnome-photos
+
+#!! update it and change name (package is named now celliloid)
+Recommends: gnome-mpv
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
@@ -64,19 +97,31 @@ dependencies for running the GNOME.
 Summary:	A very minimal GNOME 3 desktop
 Group:		Graphical desktop/GNOME
 
+Requires: accountsservice
 Requires:	adwaita-icon-theme
+Requires: gnome-desktop
 Requires:	gnome-backgrounds
 Requires:	gnome-control-center
+Requires: gnome-menus
+Requires: gnome-panel
+Requires: gnome-power-manager
 Requires:	gnome-keyring
 Requires:	gnome-screenshot
 Requires:	gnome-shell
 Requires:	gnome-system-monitor
 Requires:	gnome-terminal
+Requires: gnome-themes-standard
 Requires:	nautilus
 Requires:	networkmanager
 Requires:	task-pulseaudio
 Requires:	yelp
-Suggests:	task-x11
+Recommends:	task-x11
+Recommends: task-pulseaudio
+
+
+# ENABLE AFTER TEST
+# classic session:
+#Requires: gnome-classic-session
 
 %description minimal
 This package is a meta-package, meaning that its purpose is to contain
