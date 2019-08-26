@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	3.32.2
-Release:	1
+Release:	2
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -37,7 +37,7 @@ Recommends: caribou
 Recommends: caribou-gtk3
 Recommends: ekiga
 Recommends: evolution
-Recommends: gnome-boxes
+#Recommends: gnome-boxes
 Recommends: gnome-contacts
 Recommends: gparted
 Recommends: gthumb
