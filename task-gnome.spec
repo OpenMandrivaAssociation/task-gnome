@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	3.32.2
-Release:	2
+Version:	3.34.1
+Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -71,10 +71,10 @@ Recommends: gnome-commander
 
 Recommends: gucharmap
 Recommends: mousetweaks
-Suggests: nautilus-filesharing
+#Suggests: nautilus-filesharing
 Recommends: nautilus-sendto
 
-Suggests: orca
+#Suggests: orca
 Recommends: simple-scan
 Recommends: shotwell
 Recommends: sushi
