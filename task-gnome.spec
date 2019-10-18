@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	3.34.1
-Release:	1
+Release:	2
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -57,7 +57,9 @@ Recommends: gthumb
 Recommends: bijiben
 Recommends: gnome-characters
 Recommends: gnome-clocks
-Recommends: gnome-builder
+# new version broken, so disable it for now. Anyway this is needed only for devs.
+#Recommends: gnome-builder
+Recommends: gnome-calendar
 Recommends: gnome-dictionary
 Recommends: gnome-documents
 Recommends: gnome-font-viewer
