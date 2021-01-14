@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	3.34.1
-Release:	2
+Version:	3.38.1
+Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
