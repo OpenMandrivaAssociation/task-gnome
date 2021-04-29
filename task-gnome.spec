@@ -1,6 +1,6 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	3.38.1
+Version:	40.0
 Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
@@ -37,6 +37,7 @@ Recommends: caribou
 Recommends: caribou-gtk3
 Recommends: ekiga
 Recommends: evolution
+# Too much dependency to install. Leave it disabled, let users choose.
 #Recommends: gnome-boxes
 Recommends: gnome-contacts
 Recommends: gparted
@@ -49,7 +50,6 @@ Recommends: gthumb
 #Recommends: peak
 
 #NOT PACKED YET
-#Recommends: gnome-calendar
 #Recommends: gnome-epub-thumbnailer
 #Recommends: gnome-multi-writer
 #Recommends: gnome-todo
@@ -88,8 +88,7 @@ Recommends: gnome-maps
 Recommends: gnome-music
 Recommends: gnome-photos
 
-#!! update it and change name (package is named now celliloid)
-Recommends: gnome-mpv
+Recommends: celluloid
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
