@@ -1,6 +1,6 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	40.0
+Version:	41.0
 Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
@@ -12,24 +12,25 @@ BuildArch:	noarch
 Requires:	%{name}-minimal
 Obsoletes:	gnome-utils
 
-Recommends:	cheese
-Recommends:	eog
-Recommends:	evince
-Recommends:	file-roller
+Recommends: cheese
+Recommends: eog
+Recommends: evince
+Recommends: file-roller
 Recommends: gnome-calculator
-Recommends:	gedit
-Recommends:	gdm
+Recommends: gedit
+Recommends: gdm
 Recommends: gnome-color-manager
-Recommends:	gnome-disk-utility
+Recommends: gnome-disk-utility
 Recommends: gnome-packagekit
 Recommends: gnome-software
 Recommends: gnome-terminal-nautilus
 
-Recommends:	empathy
-Recommends:	epiphany
-Recommends:	gnome-games
-Recommends:	rhythmbox
-Recommends:	totem
+Recommends: empathy
+Recommends: epiphany
+Recommends: gnome-games
+Recommends: rhythmbox
+Recommends: lollypop
+Recommends: totem
 
 # biz / office / utils
 Recommends: brasero
@@ -57,7 +58,7 @@ Recommends: gthumb
 Recommends: bijiben
 Recommends: gnome-characters
 Recommends: gnome-clocks
-# new version broken, so disable it for now. Anyway this is needed only for devs.
+# This is needed only for devs.
 #Recommends: gnome-builder
 Recommends: gnome-calendar
 Recommends: gnome-dictionary
@@ -83,9 +84,13 @@ Recommends: sushi
 Recommends: vino
 Recommends: vinagre
 Recommends: polari
+#or srain
+#Recommends: srain
+Recommends: fractal
 
 Recommends: gnome-maps
-Recommends: gnome-music
+# Broken fow now. Tracker issue. Let's use rhytmbox and lollypop
+#Recommends: gnome-music
 Recommends: gnome-photos
 
 Recommends: celluloid
@@ -99,25 +104,29 @@ Summary:	A very minimal GNOME 3 desktop
 Group:		Graphical desktop/GNOME
 
 Requires: accountsservice
-Requires:	adwaita-icon-theme
+Requires: adwaita-icon-theme
 Requires: gnome-desktop
-Requires:	gnome-backgrounds
-Requires:	gnome-control-center
+Requires: gnome-backgrounds
+Requires: gnome-control-center
 Requires: gnome-menus
 Requires: gnome-panel
 Requires: gnome-power-manager
-Requires:	gnome-keyring
-Requires:	gnome-screenshot
-Requires:	gnome-shell
-Requires:	gnome-system-monitor
-Requires:	gnome-terminal
+Requires: gnome-keyring
+Requires: gnome-screenshot
+Requires: gnome-shell
+Requires: gnome-system-monitor
+Requires: gnome-terminal
 Requires: gnome-themes-standard
-Requires:	nautilus
-Requires:	networkmanager
-Requires:	task-pulseaudio
-Requires:	yelp
-Recommends:	task-x11
+Requires: nautilus
+Requires: networkmanager
+Requires: task-pulseaudio
+Requires: yelp
+Recommends: task-x11
 Recommends: task-pulseaudio
+
+# For dnfdragora
+Recommends: libyui-gtk
+Recommends: libyui-mga-gtk
 
 
 # ENABLE AFTER TEST
