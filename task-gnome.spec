@@ -24,6 +24,7 @@ Recommends: gnome-disk-utility
 Recommends: gnome-packagekit
 Recommends: gnome-software
 Recommends: gnome-terminal-nautilus
+Recommends: gnome-tweaks
 
 Recommends: empathy
 Recommends: epiphany
