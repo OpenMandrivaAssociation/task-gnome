@@ -104,6 +104,7 @@ dependencies for running the GNOME.
 Summary:	A very minimal GNOME 3 desktop
 Group:		Graphical desktop/GNOME
 
+Requires: adobe-source-code-pro-fonts
 Requires: accountsservice
 Requires: adwaita-icon-theme
 Requires: gnome-desktop
