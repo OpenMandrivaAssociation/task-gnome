@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	42.0
-Release:	2
+Version:	43.0
+Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -18,6 +18,7 @@ Recommends: evince
 Recommends: file-roller
 Recommends: gnome-calculator
 Recommends: gedit
+Recommends: gnome-text-editor
 Recommends: gdm
 Recommends: gnome-color-manager
 Recommends: gnome-disk-utility
@@ -25,7 +26,7 @@ Recommends: gnome-packagekit
 Recommends: gnome-software
 Recommends: gnome-terminal-nautilus
 Recommends: gnome-tweaks
-
+Recommends: console
 Recommends: empathy
 Recommends: epiphany
 Recommends: gnome-games
@@ -63,7 +64,8 @@ Recommends: gnome-clocks
 #Recommends: gnome-builder
 Recommends: gnome-calendar
 Recommends: gnome-dictionary
-Recommends: gnome-documents
+# broken right now + obsoletes
+#Recommends: gnome-documents
 Recommends: gnome-font-viewer
 Recommends: gnome-sound-recorder
 Recommends: gnome-usage
@@ -82,18 +84,17 @@ Recommends: nautilus-sendto
 Recommends: simple-scan
 Recommends: shotwell
 Recommends: sushi
-Recommends: vino
-Recommends: vinagre
+#Recommends: vino
+#Recommends: vinagre
 Recommends: polari
 #or srain
 #Recommends: srain
 Recommends: fractal
 
 Recommends: gnome-maps
-# Broken fow now. Tracker issue. Let's use rhytmbox and lollypop
-#Recommends: gnome-music
+Recommends: gnome-music
 Recommends: gnome-photos
-
+#maybe better clapper?
 Recommends: celluloid
 
 %description
