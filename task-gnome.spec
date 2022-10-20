@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	43.0
-Release:	1
+Release:	2
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -66,6 +66,7 @@ Recommends: gnome-calendar
 Recommends: gnome-dictionary
 # broken right now + obsoletes
 #Recommends: gnome-documents
+Recommends: foliate
 Recommends: gnome-font-viewer
 Recommends: gnome-sound-recorder
 Recommends: gnome-usage
@@ -84,8 +85,8 @@ Recommends: nautilus-sendto
 Recommends: simple-scan
 Recommends: shotwell
 Recommends: sushi
-#Recommends: vino
-#Recommends: vinagre
+Recommends: vino
+Recommends: vinagre
 Recommends: polari
 #or srain
 #Recommends: srain
@@ -94,8 +95,8 @@ Recommends: fractal
 Recommends: gnome-maps
 Recommends: gnome-music
 Recommends: gnome-photos
-#maybe better clapper?
-Recommends: celluloid
+Recommends: clapper
+#Recommends: celluloid
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
