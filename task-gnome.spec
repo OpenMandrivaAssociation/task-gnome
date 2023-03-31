@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	43.0
-Release:	2
+Release:	3
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
