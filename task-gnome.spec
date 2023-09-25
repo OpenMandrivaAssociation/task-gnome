@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	43.0
-Release:	3
+Version:	45.0
+Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -33,6 +33,7 @@ Recommends: gnome-games
 Recommends: rhythmbox
 Recommends: lollypop
 Recommends: totem
+Recommends: loupe
 
 # biz / office / utils
 Recommends: brasero
