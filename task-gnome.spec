@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	45.0
-Release:	1
+Release:	2
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -128,6 +128,7 @@ Requires: task-pulseaudio
 Requires: yelp
 Recommends: task-x11
 Recommends: task-pulseaudio
+Recommends: xdg-desktop-portal-gnome
 
 # For dnfdragora
 Recommends: libyui-gtk
