@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	45.0
-Release:	2
+Release:	3
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -74,7 +74,8 @@ Recommends: gnome-usage
 Recommends: gnome-weather
 Recommends: baobab
 Recommends: gnome-system-log
-Recommends: gnome-search-tool
+# old, no longer needed
+#Recommends: gnome-search-tool
 Recommends: gnome-commander
 
 Recommends: gucharmap
