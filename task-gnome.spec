@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	45.0
-Release:	3
+Version:	46.0
+Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -27,13 +27,14 @@ Recommends: gnome-software
 Recommends: gnome-terminal-nautilus
 Recommends: gnome-tweaks
 Recommends: console
-Recommends: empathy
 Recommends: epiphany
 Recommends: gnome-games
 Recommends: rhythmbox
 Recommends: lollypop
 Recommends: totem
 Recommends: loupe
+# Empathy is no longer in active development and still require old, dropped webkit 4.0. Lets remove it.
+Obsoletes: empathy
 
 # biz / office / utils
 Recommends: brasero
@@ -65,8 +66,8 @@ Recommends: gnome-clocks
 #Recommends: gnome-builder
 Recommends: gnome-calendar
 Recommends: gnome-dictionary
-# broken right now + obsoletes
-#Recommends: gnome-documents
+# broken right now + obsoletes, no longer in development and require dropped webkit 4.0
+Obsoletes: gnome-documents
 Recommends: foliate
 Recommends: gnome-font-viewer
 Recommends: gnome-sound-recorder
@@ -87,8 +88,9 @@ Recommends: nautilus-sendto
 Recommends: simple-scan
 Recommends: shotwell
 Recommends: sushi
-Recommends: vino
-Recommends: vinagre
+# Disable for now, too old to keep in task/ISO but still good to install by user.
+#Recommends: vino
+#Recommends: vinagre
 Recommends: polari
 #or srain
 #Recommends: srain
@@ -96,6 +98,7 @@ Recommends: fractal
 
 Recommends: gnome-maps
 Recommends: gnome-music
+# One year old but still good?
 Recommends: gnome-photos
 Recommends: clapper
 #Recommends: celluloid
