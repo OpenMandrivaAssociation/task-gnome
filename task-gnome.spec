@@ -124,7 +124,7 @@ Requires: gnome-menus
 Requires: gnome-panel
 Requires: gnome-power-manager
 Requires: gnome-keyring
-Requires: gnome-screenshot
+#Requires: gnome-screenshot
 Requires: gnome-shell
 Requires: gnome-system-monitor
 Requires: gnome-terminal
