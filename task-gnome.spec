@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	46.0
-Release:	1
+Release:	2
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -22,16 +22,19 @@ Recommends: gnome-text-editor
 Recommends: gdm
 Recommends: gnome-color-manager
 Recommends: gnome-disk-utility
-Recommends: gnome-packagekit
+# Crashing at package searching, disable for now. Gnome-software works better.
+#Recommends: gnome-packagekit
 Recommends: gnome-software
 Recommends: gnome-terminal-nautilus
 Recommends: gnome-tweaks
 Recommends: console
-Recommends: epiphany
+# No need to pull seconds web browser. Main and fully featured is Firefox.
+#Recommends: epiphany
 Recommends: gnome-games
 Recommends: rhythmbox
 Recommends: lollypop
-Recommends: totem
+# De bloat, totem is a bit old software, and we already provide clapper.
+#Recommends: totem
 Recommends: loupe
 # Empathy is no longer in active development and still require old, dropped webkit 4.0. Lets remove it.
 Obsoletes: empathy
@@ -99,7 +102,7 @@ Recommends: fractal
 Recommends: gnome-maps
 Recommends: gnome-music
 # One year old but still good?
-Recommends: gnome-photos
+#Recommends: gnome-photos
 Recommends: clapper
 #Recommends: celluloid
 
