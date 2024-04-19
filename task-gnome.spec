@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	46.0
-Release:	2
+Release:	3
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -32,7 +32,7 @@ Recommends: console
 #Recommends: epiphany
 Recommends: gnome-games
 Recommends: rhythmbox
-Recommends: lollypop
+#Recommends: lollypop
 # De bloat, totem is a bit old software, and we already provide clapper.
 #Recommends: totem
 Recommends: loupe
