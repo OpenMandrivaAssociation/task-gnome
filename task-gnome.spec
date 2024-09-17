@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	46.0
-Release:	3
+Version:	47.0
+Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -27,12 +27,17 @@ Recommends: gnome-disk-utility
 Recommends: gnome-software
 Recommends: gnome-terminal-nautilus
 Recommends: gnome-tweaks
-Recommends: console
+#Recommends: console
 # No need to pull seconds web browser. Main and fully featured is Firefox.
 #Recommends: epiphany
-Recommends: gnome-games
-Recommends: rhythmbox
+#Recommends: gnome-games
+Recommends:  aisleriot
+Recommends:  gnome-chess
+Recommends:  gnome-mahjongg
+Recommends:  gnome-nibbles
+#Recommends: rhythmbox
 #Recommends: lollypop
+Recommends:  g4music
 # De bloat, totem is a bit old software, and we already provide clapper.
 #Recommends: totem
 Recommends: loupe
@@ -62,7 +67,7 @@ Recommends: gthumb
 #Recommends: gnome-multi-writer
 #Recommends: gnome-todo
 
-Recommends: bijiben
+#Recommends: bijiben
 Recommends: gnome-characters
 Recommends: gnome-clocks
 # This is needed only for devs.
@@ -100,7 +105,7 @@ Recommends: polari
 Recommends: fractal
 
 Recommends: gnome-maps
-Recommends: gnome-music
+#Recommends: gnome-music
 # One year old but still good?
 #Recommends: gnome-photos
 Recommends: clapper
