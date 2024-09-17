@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
 Version:	47.0
-Release:	1
+Release:	2
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -105,7 +105,7 @@ Recommends: polari
 Recommends: fractal
 
 Recommends: gnome-maps
-#Recommends: gnome-music
+Recommends: gnome-music
 # One year old but still good?
 #Recommends: gnome-photos
 Recommends: clapper
