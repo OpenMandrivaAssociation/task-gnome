@@ -1,6 +1,6 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	48.0
+Version:	48.3
 Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
@@ -11,15 +11,20 @@ BuildArch:	noarch
 
 Requires:	%{name}-minimal
 Obsoletes:	gnome-utils
-
+# cheese or snapshot? Snapshot is a new but rust based app. Lets keep cheese for now. [2025.06.01]
 Recommends: cheese
-Recommends: eog
+# Disable until the future of eog crystallizes. Either that or loupe... but that fucking rust... [2025.06.01]
+#Recommends: eog
+Recommends: loupe
+# evince or papers? But again that ducking rust. Lets keep now evince and observe the situation [2025.06.01]
 Recommends: evince
 Recommends: file-roller
 Recommends: gnome-calculator
+# To decision. Keep both or just one and if one, which one
 Recommends: gedit
 Recommends: gnome-text-editor
 Recommends: gdm
+# Keep eye on it... Without new releases in while, but git still alive.
 Recommends: gnome-color-manager
 Recommends: gnome-disk-utility
 # Crashing at package searching, disable for now. Gnome-software works better.
@@ -40,7 +45,6 @@ Recommends:  gnome-nibbles
 Recommends:  g4music
 # De bloat, totem is a bit old software, and we already provide clapper.
 #Recommends: totem
-Recommends: loupe
 # Empathy is no longer in active development and still require old, dropped webkit 4.0. Lets remove it.
 Obsoletes: empathy
 
@@ -48,7 +52,7 @@ Obsoletes: empathy
 Recommends: brasero
 Recommends: caribou
 Recommends: caribou-gtk3
-Recommends: ekiga
+#Recommends: ekiga
 Recommends: evolution
 # Too much dependency to install. Leave it disabled, let users choose.
 #Recommends: gnome-boxes
@@ -73,24 +77,30 @@ Recommends: gnome-clocks
 # This is needed only for devs.
 #Recommends: gnome-builder
 Recommends: gnome-calendar
-Recommends: gnome-dictionary
+# Project archived, no longer in developmen. Disable [2025.06.01]
+#Recommends: gnome-dictionary
 # broken right now + obsoletes, no longer in development and require dropped webkit 4.0
 Obsoletes: gnome-documents
 Recommends: foliate
 Recommends: gnome-font-viewer
+# Old, but still works. Lets keep it a bit.
 Recommends: gnome-sound-recorder
-Recommends: gnome-usage
+# Disable as duplicate [exist gnome-system-monitor] [2025.06.01]
+#Recommends: gnome-usage
 Recommends: gnome-weather
 Recommends: baobab
-Recommends: gnome-system-log
+# Project archived, no longer in developmen. Disable [2025.06.01]
+#Recommends: gnome-system-log
 # old, no longer needed
 #Recommends: gnome-search-tool
 Recommends: gnome-commander
-
-Recommends: gucharmap
-Recommends: mousetweaks
+# Disable as old. [2025.06.01]
+#Recommends: gucharmap
+# Project archived, no longer in developmen. Disable [2025.06.01]
+#Recommends: mousetweaks
 #Suggests: nautilus-filesharing
-Recommends: nautilus-sendto
+# Disable as old. [2025.06.01]
+#Recommends: nautilus-sendto
 
 #Suggests: orca
 Recommends: simple-scan
@@ -120,6 +130,7 @@ Summary:	A very minimal GNOME 3 desktop
 Group:		Graphical desktop/GNOME
 
 Requires: adobe-source-code-pro-fonts
+Requires: adwaita-fonts
 Requires: accountsservice
 Requires: adwaita-icon-theme
 Requires: gnome-desktop
@@ -127,9 +138,9 @@ Requires: gnome-backgrounds
 Requires: gnome-control-center
 Requires: gnome-menus
 Requires: gnome-panel
-Requires: gnome-power-manager
+# Disable as old [2025.06.01]
+#Requires: gnome-power-manager
 Requires: gnome-keyring
-#Requires: gnome-screenshot
 Requires: gnome-shell
 Requires: gnome-system-monitor
 Requires: gnome-terminal
