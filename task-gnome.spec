@@ -1,6 +1,6 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	48.3
+Version:	49.1
 Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
@@ -21,7 +21,7 @@ Recommends: evince
 Recommends: file-roller
 Recommends: gnome-calculator
 # To decision. Keep both or just one and if one, which one
-Recommends: gedit
+#Recommends: gedit
 Recommends: gnome-text-editor
 Recommends: gdm
 # Keep eye on it... Without new releases in while, but git still alive.
@@ -30,7 +30,7 @@ Recommends: gnome-disk-utility
 # Crashing at package searching, disable for now. Gnome-software works better.
 #Recommends: gnome-packagekit
 Recommends: gnome-software
-Recommends: gnome-terminal-nautilus
+#Recommends: gnome-terminal-nautilus
 Recommends: gnome-tweaks
 #Recommends: console
 # No need to pull seconds web browser. Main and fully featured is Firefox.
@@ -58,7 +58,7 @@ Recommends: evolution
 #Recommends: gnome-boxes
 Recommends: gnome-contacts
 Recommends: gparted
-Recommends: gthumb
+#Recommends: gthumb
 
 # DONT KNOW...
 #Recommends: gimp
@@ -105,7 +105,8 @@ Recommends: gnome-commander
 #Suggests: orca
 Recommends: simple-scan
 Recommends: shotwell
-Recommends: sushi
+# broken due evince gtk4 upgrade. Awaiting for nee rel.
+#Recommends: sushi
 # Disable for now, too old to keep in task/ISO but still good to install by user.
 #Recommends: vino
 #Recommends: vinagre
@@ -143,12 +144,13 @@ Requires: gnome-panel
 Requires: gnome-keyring
 Requires: gnome-shell
 Requires: gnome-system-monitor
-Requires: gnome-terminal
+#Requires: gnome-terminal
+Requires: ptyxis
 Requires: gnome-themes-standard
 Requires: nautilus
 Requires: networkmanager
 Requires: task-pulseaudio
-Requires: yelp
+#Requires: yelp
 Recommends: task-x11
 Recommends: task-pulseaudio
 Recommends: xdg-desktop-portal-gnome
