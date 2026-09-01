@@ -1,7 +1,7 @@
 Summary:	Metapackage for GNOME desktop environment
 Name:		task-gnome
-Version:	50.2
-Release:	2
+Version:	50.3
+Release:	1
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 BuildArch:	noarch
@@ -144,8 +144,9 @@ Requires: gnome-panel
 Requires: gnome-keyring
 Requires: gnome-shell
 Requires: gnome-system-monitor
-#Requires: gnome-terminal
-Requires: ptyxis
+# After several months of testing, I conclude that ptyxis is not yet ready to replace gnome-terminal
+Recommends: gnome-terminal
+#Requires: ptyxis
 Requires: gnome-themes-standard
 Requires: nautilus
 Requires: networkmanager
